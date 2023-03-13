@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Nadsoft</title>
+   <link rel="stylesheet" href="./styles.css">
+   <link rel="stylesheet" 
+   media="screen and (max-width:768px)"
+   href="./mobile.css"
+   >
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+</head>
+<body>
+      <div class="side-nav">
+         <div>
+            <h1 class="title">Nadsoft</h1>
+         </div>
+         <ul>
+            <li>
+               <a href="#">
+                  <i class="bi bi-columns-gap"></i>
+                  <span class="nav-items">Dashboard</span>
+               </a>
+            </li>
+            <li class="relative-position">
+               <a href="#">
+                  <i class="bi bi-chat-left-text"></i>
+                  <span class="nav-items">Messages</span>
+                  <span class="count">20</span>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <i class="bi bi-people"></i>
+                  <span class="nav-items">Customers</span>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <i class="bi bi-play"></i>
+                  <span class="nav-items">Campaigns</span>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <i class="bi bi-calendar2-week"></i>
+                  <span class="nav-items">Calendar</span>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <i class="bi bi-laptop"></i>
+                  <span class="nav-items">Content</span>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <i class="bi bi-camera-video"></i>
+                  <span class="nav-items">Videos</span>
+               </a>
+            </li>
+            <li>
+               <a href="#">
+                  <i class="bi bi-journal-text"></i>
+                  <span class="nav-items">Lists</span>
+               </a>
+            </li>
+         </ul>
+         <div class="profile">
+            <span class="user">JM</span>
+            <div class="profile-flex">
+               <span class="my-profile">My Profile</span>
+               <span class="user-name">Jeff Modica</span>
+            </div>
+         </div>
+      </div>
+      <div class="container">
+         <div class="header">
+            <div class="navbar">
+               <div class="search">
+                  <input type="text" placeholder="Search">
+                  <i class="bi bi-search position-search"></i>
+               </div>
+               <div class="navbar-items">
+                  <i class="bi bi-envelope"></i>
+                  <span class="mail-count">6</span>
+                  <i class="bi bi-chat-left"></i>
+                  <span class="msg-count">12</span>
+                  <i class="bi bi-gear"></i>
+                  <i class="bi bi-question-circle"></i>
+                  <i class="bi bi-person"></i>
+               </div>
+            </div>
+         </div>
+         <div class="content">
+            <div class="notification-container">
+               <h3 class="notification-heading">
+                  <span>Notifications</span>
+               </h3>
+               <div class="card">
+                  <span class="notification-count">5</span>
+                  <span class="notification-title">Unreplied Emails</span>
+                  <button class="next-button">
+                     <i class="bi bi-arrow-right"></i>
+                  </button>
+               </div>
+               <div class="card">
+                  <span class="notification-count">5</span>
+                  <span class="notification-title">Unreplied SMS</span>
+                  <button class="next-button">
+                     <i class="bi bi-arrow-right"></i>
+                  </button>
+               </div>
+               <div class="card">
+                  <span class="notification-count">5</span>
+                  <span class="notification-title">Missed Calls</span>
+                  <button class="next-button">
+                     <i class="bi bi-arrow-right"></i>
+                  </button>
+               </div>
+               <div class="help">
+                  <span class="help-text">Need Help?</span>
+                  <span>
+                     <i class="bi bi-play-circle"></i>
+                  </span>
+               </div>  
+            </div>
+            <hr/>
+            <div class="tables-container">
+               <div>
+                  <div class="messages-flex">
+                     <h3>Messages</h3>
+                     <div class="messages-nav">
+                        <span class="border-bottom">Days</span>
+                        <span class="border-bottom">Weeks</span>
+                        <span class="border-bottom">2 Weeks</span>
+                        <span class="border-bottom">Months</span>
+                     </div>
+                  </div>
+               <div class="messages-container">
+                  <table>
+                     <tr>
+                        <td><i class="bi bi-envelope color-blue"></i></td>
+                        <td>Emails</td>
+                        <td><span class="sent-count">160</span><h5>Sent</h5></td>
+                        <td><span class="received-count">75</span><h5>Received</h5></td>
+                        <td><span class="unread-count">5</span><h5>Unread</h5></td>
+                        <td>
+                           <button class="next-button">
+                              <i class="bi bi-arrow-right"></i>
+                           </button>
+                        </td>
+                     </tr>
+                     <hr>
+                     <tr>
+                        <td><i class="bi bi-chat-left-text color-blue"></i></td>
+                        <td>SMS</td>
+                        <td><span class="sent-count">160</span><h5>Sent</h5></td>
+                        <td><span class="received-count">75</span><h5>Received</h5></td>
+                        <td><span class="unread-count">5</span><h5>Unread</h5></td>
+                        <td>
+                           <button class="next-button">
+                              <i class="bi bi-arrow-right"></i>
+                           </button>
+                        </td>
+                     </tr>
+                     <hr>
+                     <tr>
+                        <td><i class="bi bi-telephone color-blue"></i></td>
+                        <td>Calls</td>
+                        <td><span class="sent-count">160</span><h5>Sent</h5></td>
+                        <td><span class="received-count">75</span><h5>Received</h5></td>
+                        <td><span class="unread-count">5</span><h5>Unread</h5></td>
+                        <td>
+                           <button class="next-button">
+                              <i class="bi bi-arrow-right"></i>
+                           </button>
+                        </td>
+                     </tr>
+                  </table>
+               </div>
+               </div>
+               <div>
+                  <div class="pipeline-flex">
+                     <h3>Pipeline</h3>
+                     <div class="pipeline-nav">
+                        <span>Full pipeline</span>
+                        <i class="bi bi-arrow-right pipeline-arrow"></i>
+                     </div>
+                  </div>
+               <div class="pipeline-container">
+                  <table>
+                     <tr>
+                        <td><span class="dot bg-blue"></span></td>
+                        <td>Received</td>
+                        <td><span class="number">3</span></td>
+                        <td><span class="green color-green">$3000</span></td>
+                     </tr>
+                     <tr>
+                        <td><span class="dot bg-orange"></span></td>
+                        <td>Contact</td>
+                        <td><span class="number">2</span></td>
+                        <td><span class="green color-green">$2000</span></td>
+                     </tr>
+                     <tr>
+                        <td><span class="dot bg-purple"></span></td>
+                        <td>Appointment</td>
+                        <td><span class="number">2</span></td>
+                        <td><span class="green color-green">$2000</span></td>
+                     </tr>
+                     <tr>
+                        <td><span class="dot bg-green"></span></td>
+                        <td>Sold</td>
+                        <td><span class="number">1</span></td>
+                        <td><span class="green color-green">$1000</span></td>
+                     </tr>
+                     <tr>
+                        <td><span class="dot bg-red"></span></td>
+                        <td>Lost</td>
+                        <td><span class="number">3</span></td>
+                        <td><span class="red color-red">$3000</span></td>
+                     </tr>
+                  </table>
+               </div>
+               </div>
+            </div>
+         </div>
+      </div> 
+</body>
+</html>
